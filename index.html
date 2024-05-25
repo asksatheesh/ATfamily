@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The AthiThangam Family</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#family-tree">Family Tree</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <h2>Welcome to Our Family Website</h2>
+        <p>Discover the history and stories of the AthiThangam family.</p>
+    </section>
+    
+    <section id="family-tree">
+        <h2>Family Tree</h2>
+        <div class="tree">
+            <ul>
+                <li>
+                    <div class="spouse">
+                        <a href="#" onclick="showMemberDetails('athi')">Athisekaran</a>
+                        <img src="images/HeartLink.png" alt="Link Logo" class="link-logo">
+                        <a href="#" onclick="showMemberDetails('thangam')">Thangakani</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="spouse">
+                                <a href="#" onclick="showMemberDetails('krishna')">Krishna Kumar</a>
+                                <img src="images/HeartLink.png" alt="Link Logo" class="link-logo">
+                                <a href="#" onclick="showMemberDetails('karthika')">Karthika</a>
+                            </div>
+                            <ul>
+                                <li><a href="#" onclick="showMemberDetails('asmi')">Asmith</a></li>
+                                <li><a href="#" onclick="showMemberDetails('tiwani')">Tiwana Athisa</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="spouse">
+                                <a href="#" onclick="showMemberDetails('satheesh')">Satheesh Kumar</a>
+                                <img src="images/HeartLink.png" alt="Link Logo" class="link-logo">
+                                <a href="#" onclick="showMemberDetails('sarah')">Saranya</a>
+                            </div>
+                            <ul>
+                                <li><a href="#" onclick="showMemberDetails('xxx')">XXX</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <div class="spouse">
+                                <a href="#" onclick="showMemberDetails('salini')">Salini</a>
+                                <img src="images/HeartLink.png" alt="Link Logo" class="link-logo">
+                                <a href="#" onclick="showMemberDetails('krishnakumar')">Krishna Kumar</a>
+                            </div>
+                            <ul>
+                                <li><a href="#" onclick="showMemberDetails('ayana')">AyanaSri</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 The Smith Family</p>
+    </footer>
+
+    <div id="member-details" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeMemberDetails()">&times;</span>
+            <img id="member-img" src="" alt="Member Photo">
+            <h2 id="member-name"></h2>
+            <p id="member-bio"></p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
