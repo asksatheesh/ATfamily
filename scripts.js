@@ -29,16 +29,36 @@ const members = {
         bio: 'She is a HomeMaker.',
         img: 'images/Karthika.jpg'
     },
-    saranya: {
+    sarah: {
         name: 'R.Saranya',
         bio: 'She is a HomeMaker.',
         img: 'images/Saranya.jpg'
     },
-    krishnaKumar: {
-        name: 'A.Krishna Kumar Johnson',
-        bio: 'He is an Engineer.',
+    krishnakumar: {
+        name: 'A.Krishna Kumar',
+        bio: 'He is an IT Engineer.',
         img: 'images/KrishnaKumar.jpg'
     },
+    asmi: {
+        name: 'K.Asmith',
+        bio: 'He is a Student.',
+        img: 'images/Asmith.jpg'
+    },
+    tiwani: {
+        name: 'K.Tiwana Athisa',
+        bio: 'She is a Student.',
+        img: 'images/Tiwani.jpg'
+    },
+    ayana: {
+        name: 'K.Ayana Sri',
+        bio: 'She is a Student.',
+        img: 'images/Ayana.jpg'
+    },
+    xxx: {
+        name: 'XXX',
+        bio: 'xxx.',
+        img: 'images/xxx.jpg'
+    }
 };
 
 function showMemberDetails(memberId) {
