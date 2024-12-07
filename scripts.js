@@ -54,7 +54,7 @@ const members = {
         bio: 'She is a Student.',
         img: 'images/Ayana.jpg'
     },
-    xxx: {
+    dhira: {
         name: 'S.Aadhiran',
         bio: 'New Born Baby.',
         img: 'images/Aadhiran.jpg'
