@@ -55,8 +55,8 @@ const members = {
         img: 'images/Ayana.jpg'
     },
     xxx: {
-        name: 'XXX',
-        bio: 'xxx.',
+        name: 'S.Aadhiran',
+        bio: 'New Born Baby.',
         img: 'images/xxx.jpg'
     }
 };
