@@ -57,7 +57,7 @@ const members = {
     xxx: {
         name: 'S.Aadhiran',
         bio: 'New Born Baby.',
-        img: 'images/xxx.jpg'
+        img: 'images/Aadhiran.jpg'
     }
 };
 
